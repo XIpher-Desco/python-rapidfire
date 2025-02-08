@@ -19,3 +19,7 @@ python -m venv .venv-python-rapid-fire
 # アクティベート
 .\.venv-python-rapid-fire\Scripts\activate
 ```
+
+```
+pyinstaller .\main.py --name mouse-rapidfire.exe --onefile --noconsole
+```
